@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(239, 79, 79, 0);
+    background-color: #484f4d;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    z-index: 1;
+}
+
+nav {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    float: right;
+    padding: 5px 10px;
+    box-shadow: 0 0 10px rgb(251, 251, 254);
+    background-color: rgb(4, 4, 4);
+    position: fixed;
+    z-index: 2;
+
+}
+
+ul {
+
+    list-style: none;
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+
+}
+
+li {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+
+}
+
+a {
+    color: rgb(236, 232, 232);
+    text-decoration: none;
+    transition: 0.4;
+    margin-right: 30px;
+
+
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+h4 {
+    color: aliceblue;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    color: rgb(213, 186, 202);
+    text-align: center;
+    gap: 8px;
+
+}
+
+.sobre {
+
+
+    box-shadow: 10px 10px 10px #888686;
+    border-radius: 10px;
+    background-color: rgb(111, 175, 171);
+    padding: 30px;
+    margin-left: 600px;
+
+
+}
+
+.tecnologia {
+
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 10px 10px 10px #888686;
+    border-radius: 10px;
+    background-color: rgb(111, 175, 171);
+    margin-right: 1000px;
+    margin-left: 20px;
+    padding: 50px;
+    gap: 10px;
+
+}
+
+.link {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;
+    margin-bottom: 10px;
+    margin-top: -400px;
+    margin-left: 400px;
+
+
+
+}
+
+.btn2 {
+
+
+    border: solid 2px rgb(22, 22, 22);
+    padding: 10px 40px;
+    max-width: 180px;
+    margin-bottom: 10px;
+    color: aquamarine;
+    border-radius: 15px;
+    box-shadow: 5px 2px 2px #888686;
+
+
+
+
+}
+
+.btn3 {
+
+
+
+    border: solid 2px rgb(22, 22, 22);
+    padding: 8px 40px;
+    max-width: 180px;
+    margin-bottom: 10px;
+    color: aquamarine;
+    border-radius: 15px;
+    box-shadow: 5px 2px 5px #888686;
+
+
+}
+
+.btn4 {
+
+
+
+    border: solid 2px rgb(22, 22, 22);
+    padding: 10px 40px;
+    max-width: 180px;
+    margin-bottom: 10px;
+    color: aquamarine;
+    border-radius: 15px;
+    box-shadow: 5px 2px 5px #888686;
+}
+
+.footer {
+
+
+
+    align-items: center;
+    padding: 60px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgb(251, 251, 254);
+    background-color: rgb(4, 4, 4);
+    color: aliceblue;
+
+
+
+}
+
+.img {
+    margin-top: 20px;
+
+}
+
+h2 {
+    color: #161515;
+}
+
+p {
+    color: azure;
+}
+
+.face {
+    box-shadow: 0 0 8px rgb(251, 251, 254);
+}
+
+.insta {
+    box-shadow: 0 0 8px rgb(251, 251, 254);
+}
+
+.din {
+    box-shadow: 0 0 8px rgb(251, 251, 254);
+}
+
+.git {
+    box-shadow: 0 0 8px rgb(251, 251, 254);
+}
+
+.buttons{
+
+    background: var(--color-dark);
+    margin-top: 30px;
+    color: rgb(9, 9, 9);
+    color: rgb(32, 226, 110);
+    
+
+}
+
+.btn {
+
+    background: var(--primary);
+    padding: 15px 40px;
+    border: solid 2px rgb(22, 22, 22);
+    max-width: 200px;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 60px;
+    text-align: center;
+    margin-right: 20px;
+    gap: 2rem;
+
+}
+
+.btn:hover {
+    background: var(--color-dark);
+    color: rgb(4, 4, 4);
+
+}
+
+.banner {
+
+    background: url(img/bendy-man-developer-writing-programming-code.gif) no-repeat right;
+    height: 400px;
+    margin-top: 100px;
+    padding: 10px;
+    
+
+
+}
+
+.banner .container {
+    
+    box-shadow: 20px;
+    margin-top: 30px;
+    margin-left: 25px;
+
+}
+
+.banner .container h5 {
+
+    font-size: 30px;
+    font-weight: 300;
+
+}
+
+.banner .container h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.banner .container p {
+
+    font-size: 22px;
+    font-weight: 100;
+}
