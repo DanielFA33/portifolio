@@ -1,17 +1,19 @@
 * {
     padding: 0;
     margin: 0;
+
+
 }
 
-html,
+
 body {
     display: flex;
     font-family: 'Open Sans', sans-serif;
     background-color: rgba(239, 79, 79, 0);
     background-color: #484f4d;
-    margin-left: 0px;
-    margin-right: 0px;
-
+    margin-left: 0;
+    margin-right: 0;
+    flex-direction: column;
     z-index: 1;
 }
 
@@ -163,9 +165,11 @@ h4 {
     align-items: center;
     padding: 60px;
     margin-top: 20px;
-    box-shadow: 0 0 10px rgb(251, 251, 254);
+    box-shadow: 0 0 20px rgb(251, 251, 254);
     background-color: rgb(4, 4, 4);
     color: aliceblue;
+
+
 
 
 
@@ -200,13 +204,13 @@ p {
     box-shadow: 0 0 8px rgb(251, 251, 254);
 }
 
-.buttons{
+.buttons {
 
     background: var(--color-dark);
     margin-top: 30px;
     color: rgb(9, 9, 9);
     color: rgb(32, 226, 110);
-    
+
 
 }
 
@@ -235,16 +239,16 @@ p {
 .banner {
 
     background: url(img/bendy-man-developer-writing-programming-code.gif) no-repeat right;
-    height: 400px;
+    height: 350px;
     margin-top: 100px;
     padding: 10px;
-    
+
 
 
 }
 
 .banner .container {
-    
+
     box-shadow: 20px;
     margin-top: 30px;
     margin-left: 25px;
@@ -261,10 +265,4 @@ p {
 .banner .container h1 {
     font-size: 40px;
     font-weight: 900;
-}
-
-.banner .container p {
-
-    font-size: 22px;
-    font-weight: 100;
 }
